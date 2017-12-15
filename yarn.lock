@@ -597,10 +597,6 @@ babel-plugin-syntax-object-rest-spread@^6.13.0, babel-plugin-syntax-object-rest-
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
 
-babel-plugin-syntax-pipeline-operator@7.0.0-beta.3:
-  version "7.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-pipeline-operator/-/babel-plugin-syntax-pipeline-operator-7.0.0-beta.3.tgz#f8d17f9d5fdf8a515c0d5a33d2483665575bdf9d"
-
 babel-plugin-syntax-trailing-function-commas@^6.22.0:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-trailing-function-commas/-/babel-plugin-syntax-trailing-function-commas-6.22.0.tgz#ba0360937f8d06e40180a43fe0d5616fff532cf3"
@@ -858,12 +854,6 @@ babel-plugin-transform-object-rest-spread@^6.22.0:
   dependencies:
     babel-plugin-syntax-object-rest-spread "^6.8.0"
     babel-runtime "^6.26.0"
-
-babel-plugin-transform-pipeline-operator@^7.0.0-beta.3:
-  version "7.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-pipeline-operator/-/babel-plugin-transform-pipeline-operator-7.0.0-beta.3.tgz#5e9c36c1b8e769394165546fe0bd3eeaa2e5b88e"
-  dependencies:
-    babel-plugin-syntax-pipeline-operator "7.0.0-beta.3"
 
 babel-plugin-transform-react-display-name@^6.23.0:
   version "6.25.0"
