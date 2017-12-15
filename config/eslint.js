@@ -20,6 +20,7 @@ module.exports = {
     'jsx-a11y/iframe-has-title': 1,
     'jsx-a11y/alt-text': 1,
     'jsx-a11y/mouse-events-have-key-events': 1,
+    'jsx-a11y/no-noninteractive-tabindex': 0,
 
     'react/prop-types': 0,
 
