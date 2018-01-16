@@ -10,7 +10,7 @@ module.exports = {
     'prefer-destructuring': 1,
     'prefer-promise-reject-errors': 1,
     'react/default-props-match-prop-types': [2, {allowRequiredDefaults: true}],
-    'react/jsx-curly-brace-presence': 1,
+    'react/jsx-curly-brace-presence': 0, // Disabling so that it doesn't warn when using css prop with emotion
 
     // a11y
     'jsx-a11y/click-events-have-key-events': 1,
