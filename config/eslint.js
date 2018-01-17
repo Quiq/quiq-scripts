@@ -1,30 +1,131 @@
 module.exports = {
   parser: 'babel-eslint',
   rules: {
+    /**
+     * General Rules
+     */
+    // Errors
     'linebreak-style': [2, 'unix'],
-    semi: [0, 'always'],
-    'react/jsx-uses-react': 1,
-    'react/jsx-uses-vars': 1,
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-target-blank': 2,
+    'react/default-props-match-prop-types': [2, {allowRequiredDefaults: true}],
+    'no-restricted-syntax': [
+      'error',
+      {
+        selector: 'ForInStatement',
+        message:
+          'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
+      },
+      {
+        selector: 'ForOfStatement',
+        message:
+          'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
+      },
+      {
+        selector: 'LabeledStatement',
+        message:
+          'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+      },
+      {
+        selector: 'WithStatement',
+        message:
+          '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+      },
+      {
+        selector: 'CallExpression[callee.name="xdescribe"]',
+        message:
+          '`xdescribe` is disallowed in the build. If this test suite really needs to be skipped, disable the `no-restricted-syntax` rule with a reason to ignore the test',
+      },
+      {
+        selector: 'CallExpression[callee.name="xit"]',
+        message:
+          '`xit` is disallowed in the build. If this test really needs to be skipped, disable the `no-restricted-syntax` rule with a reason to ignore the test',
+      },
+      {
+        selector: 'CallExpression[callee.name="fdescribe"]',
+        message:
+          'Focused specs are not allowed to be checked in because all the tests need to run in CI.',
+      },
+      {
+        selector: 'CallExpression[callee.name="fit"]',
+        message:
+          'Focused specs are not allowed to be checked in because all the tests need to run in CI.',
+      },
+      {
+        selector: 'CallExpression[callee.name="encodeURIComponent"]',
+        message:
+          'Params for API calls are URI encoded in ApiMiddleware. Calling this twice will mess up the URI encoding.',
+      },
+    ],
+
+    // Warnings
+    'react/jsx-uses-react': 1,
+    'react/jsx-uses-vars': 1,
     'prefer-destructuring': 1,
     'prefer-promise-reject-errors': 1,
-    'react/default-props-match-prop-types': [2, {allowRequiredDefaults: true}],
-    'react/jsx-curly-brace-presence': 0, // Disabling so that it doesn't warn when using css prop with emotion
+    'no-else-return': 1,
+    'dot-notation': 1,
+    'prefer-template': 1,
+    'space-infix-ops': 1,
+    'object-shorthand': 1,
+    'no-use-before-define': [1, {functions: false}],
+    'no-param-reassign': 1,
+    'no-shadow': 1,
+    'react/no-did-update-set-state': 1,
+    'react/no-did-mount-set-state': 1,
+    'react/no-string-refs': 1,
+    'prefer-rest-params': 1,
+    'react/no-array-index-key': 1,
+    'no-return-assign': 1,
 
-    // a11y
+    // Ignore
+    semi: [0, 'always'],
+    'no-plusplus': 0,
+    'no-unused-expressions': 0,
+    'no-continue': 0,
+    'no-prototype-builtins': 0,
+    'react/sort-comp': 0,
+    'react/jsx-boolean-value': 0,
+    'import/no-named-as-default': 0,
+    'react/jsx-no-bind': 0,
+    'class-methods-use-this': 0, // Tells you to make everything static that doesn't reference `this`
+    'prefer-arrow-callback': 0,
+    'func-names': 0,
+    'import/extensions': [0, 'always'],
+    'import/first': 0,
+    'import/no-extraneous-dependencies': 0, // Doesn't like our import structure
+    'import/no-unresolved': 0, // Doesn't like our import structure
+    'react/jsx-filename-extension': 0,
+    'consistent-return': 0, // Flow knows what each method can return so we can handle all cases
+    'react/require-default-props': 0,
+    'no-underscore-dangle': 0,
+    'wrap-iife': 0,
+    'no-mixed-operators': 0,
+    'react/prop-types': 0,
+
+    /**
+     * a11y
+     */
+    // Warnings
     'jsx-a11y/click-events-have-key-events': 1,
     'jsx-a11y/interactive-supports-focus': 1,
     'jsx-a11y/no-noninteractive-element-interactions': 1,
-    'jsx-a11y/anchor-is-valid': 0, // Not working correctly
     'jsx-a11y/iframe-has-title': 1,
     'jsx-a11y/alt-text': 1,
     'jsx-a11y/mouse-events-have-key-events': 1,
+
+    // Ignore
+    'jsx-a11y/anchor-is-valid': 0, // Not working correctly
     'jsx-a11y/no-noninteractive-tabindex': 0,
+    'jsx-a11y/no-static-element-interactions': 0,
+    'jsx-a11y/href-no-hash': 0,
+    'jsx-a11y/label-has-for': 0,
+    'jsx-a11y/img-has-alt': 0,
 
-    'react/prop-types': 0,
-
-    // Turn off all the style rules
+    /**
+     * Ignore style rules because of prettier
+     */
+    'react/jsx-curly-brace-presence': 0, // Disabling so that it doesn't warn when using css prop with emotion
     'array-bracket-spacing': 0,
     'block-spacing': 0,
     'brace-style': 0,
@@ -78,54 +179,6 @@ module.exports = {
     'no-nested-ternary': 0,
     'no-new-object': 'warn',
     'no-plusplus': 0,
-    'no-restricted-syntax': [
-      'error',
-      {
-        selector: 'ForInStatement',
-        message:
-          'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
-      },
-      {
-        selector: 'ForOfStatement',
-        message:
-          'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
-      },
-      {
-        selector: 'LabeledStatement',
-        message:
-          'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
-      },
-      {
-        selector: 'WithStatement',
-        message:
-          '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
-      },
-      {
-        selector: 'CallExpression[callee.name="xdescribe"]',
-        message:
-          '`xdescribe` is disallowed in the build. If this test suite really needs to be skipped, disable the `no-restricted-syntax` rule with a reason to ignore the test',
-      },
-      {
-        selector: 'CallExpression[callee.name="xit"]',
-        message:
-          '`xit` is disallowed in the build. If this test really needs to be skipped, disable the `no-restricted-syntax` rule with a reason to ignore the test',
-      },
-      {
-        selector: 'CallExpression[callee.name="fdescribe"]',
-        message:
-          'Focused specs are not allowed to be checked in because all the tests need to run in CI.',
-      },
-      {
-        selector: 'CallExpression[callee.name="fit"]',
-        message:
-          'Focused specs are not allowed to be checked in because all the tests need to run in CI.',
-      },
-      {
-        selector: 'CallExpression[callee.name="encodeURIComponent"]',
-        message:
-          'Params for API calls are URI encoded in ApiMiddleware. Calling this twice will mess up the URI encoding.',
-      },
-    ],
     'no-spaced-func': 0,
     'no-tabs': 0,
     'no-ternary': 'off',
@@ -159,28 +212,7 @@ module.exports = {
     'unicode-bom': 0,
     'wrap-regex': 'off',
     'import/prefer-default-export': 0,
-
-    'wrap-iife': 0,
-    'no-mixed-operators': 0,
-
-    // Things that should be fixed
-    'no-use-before-define': [1, {functions: false}], // These seem worth fixing (no auto-fix :/ 95 occurances)
-    'no-param-reassign': 1,
-    'no-shadow': 1,
-    'react/no-did-update-set-state': 1,
-    'react/no-did-mount-set-state': 1,
-    'react/no-string-refs': 1,
-    'prefer-rest-params': 1,
-    'react/no-array-index-key': 1,
-    'no-return-assign': 1,
-
-    // Styling that I like (for good reasons)
-    quotes: [0, 'single', {avoidEscape: true}],
-    'prefer-arrow-callback': 0, // I like this rule, but a lot of unit tests depend on `this`, ignore for now
     'arrow-body-style': [0, 'as-needed'],
-    'dot-notation': 1,
-    'prefer-template': 1,
-    'space-infix-ops': 1,
     curly: [0, 'multi-line'],
     'one-var-declaration-per-line': 0,
     'one-var': 0,
@@ -191,20 +223,7 @@ module.exports = {
     'no-spaced-func': 0,
     'func-call-spacing': 0, // Dup
     'comma-dangle': [0, 'always-multiline'],
-
-    // Styling that I like (for arbitrary reasons)
-    'max-len': [
-      0,
-      120,
-      {
-        ignoreUrls: true,
-        ignoreStrings: true,
-        ignoreTemplateLiterals: true,
-        ignoreRegExpLiterals: true,
-      },
-    ],
-    'quote-props': [0, 'as-needed'],
-    'object-shorthand': 1,
+    'max-len': 0,
     'space-in-parens': [0, 'never'],
     'padded-blocks': [0, 'never'],
     'comma-spacing': 0,
@@ -214,53 +233,23 @@ module.exports = {
     'space-before-blocks': [0, 'always'],
     'react/jsx-wrap-multilines': 0,
     'arrow-spacing': 0,
-    'no-else-return': 1,
-    'keyword-spacing': 0, //There's a bunch of options for this
-
-    // Things that don't really work for our code base or I don't want to do
-    'func-names': 0,
-    'import/extensions': [0, 'always'],
-    'import/first': 0,
-    'import/no-extraneous-dependencies': 0, // Doesn't like our import structure
-    'import/no-unresolved': 0, // Doesn't like our import structure
-    'react/jsx-filename-extension': 0,
-    'consistent-return': 0, // Flow knows what each method can return so we can handle all cases
-    'react/require-default-props': 0,
-    'no-underscore-dangle': 0,
-
-    // Talk about
-    'no-plusplus': 0, // Might be good to talk abourt: https://github.com/airbnb/javascript#variables--unary-increment-decrement
-    'no-unused-expressions': 0, // Not quite sure what this does
-    'no-continue': 0,
-    'no-prototype-builtins': 0,
-    'react/sort-comp': 0, // Neat idea, but needs some config
-    'react/jsx-boolean-value': 0, // Worth discussing. Hadn't thought of that syntax
-    'import/no-named-as-default': 0,
-    'react/jsx-no-bind': 0,
-    'class-methods-use-this': 0, // Tells you to make everything static that doesn't reference `this`
-
-    // Accessibility
-    'jsx-a11y/no-static-element-interactions': 0, // This probably needs to be addressed sometime
-    'jsx-a11y/href-no-hash': 0,
-    'jsx-a11y/label-has-for': 0,
-    'jsx-a11y/img-has-alt': 0,
-
-    // Rules to turn on if devs whine about consistency
+    'keyword-spacing': 0,
+    'quote-props': [0, 'as-needed'],
     'template-curly-spacing': [0, 'never'],
     'array-bracket-spacing': [0, 'never'],
-    'object-curly-spacing': [0, 'never'], // airbnb does always
-    'react/jsx-space-before-closing': [0, 'always'], // Style, might be nice
+    'object-curly-spacing': [0, 'never'],
+    'react/jsx-space-before-closing': [0, 'always'],
     'react/jsx-tag-spacing': 0,
     'react/jsx-curly-spacing': [0, 'never'],
-    'react/jsx-equals-spacing': [0, 'never'], // Style, I like it
+    'react/jsx-equals-spacing': [0, 'never'],
     'jsx-quotes': [0, 'prefer-double'],
     'space-before-function-paren': [0, 'always'],
-    'brace-style': [0, 'stroustrup'], // eslint uses 1tbs
+    'brace-style': [0, 'stroustrup'],
     'arrow-parens': [0, 'as-needed'],
     'eol-last': 0,
     'default-case': 0,
     'block-spacing': 0,
-    'no-lonely-if': 0, // Got tired of fixing these
+    'no-lonely-if': 0,
   },
   extends: 'airbnb',
 
