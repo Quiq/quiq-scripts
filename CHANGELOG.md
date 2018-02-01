@@ -1,7 +1,9 @@
 # Changelog
 
-## master
+## 0.1.0
 
+* Added TimeoutID and IntervalID to list of globals for eslint
+* Updated flow to v0.64.0 (Caused a lot of errors in message-ui)
 * Organized eslint config (no functional change)
 
 ## 0.0.6

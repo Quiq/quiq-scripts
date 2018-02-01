@@ -269,6 +269,7 @@ module.exports = {
   },
   plugins: ['react', 'flowtype'],
   globals: {
+    IntervalID: false,
     jest: false,
     T: false,
     ReactComponent: false,
@@ -285,6 +286,7 @@ module.exports = {
     SyntheticDragEvent: false,
     SyntheticWheelEvent: false,
     SyntheticTouchEvent: false,
+    TimeoutID: false,
     moment$Moment: false,
     ReactWrapper: false,
     ShallowWrapper: false,
