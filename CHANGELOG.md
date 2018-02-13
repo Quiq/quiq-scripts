@@ -1,5 +1,9 @@
 # Changelog
 
+## master
+
+* Ignoring another code style warning in eslint
+
 ## 0.1.0
 
 * Added TimeoutID and IntervalID to list of globals for eslint

@@ -66,7 +66,6 @@ module.exports = {
     'no-else-return': 1,
     'dot-notation': 1,
     'prefer-template': 1,
-    'space-infix-ops': 1,
     'object-shorthand': 1,
     'no-use-before-define': [1, {functions: false}],
     'no-param-reassign': 1,
@@ -125,6 +124,7 @@ module.exports = {
     /**
      * Ignore style rules because of prettier
      */
+    'space-infix-ops': 0,
     'react/jsx-curly-brace-presence': 0, // Disabling so that it doesn't warn when using css prop with emotion
     'array-bracket-spacing': 0,
     'block-spacing': 0,
