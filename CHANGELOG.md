@@ -3,6 +3,7 @@
 ## master
 
 * Jest update to 22.4.0
+* Flow update to 0.66.0
 * Ignoring another code style warning in eslint
 
 ## 0.1.0
