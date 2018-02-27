@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.2.1
+
+* Prettier update to 1.11.0
+
 ## 0.2.0
 
 * Jest update to 22.4.0
