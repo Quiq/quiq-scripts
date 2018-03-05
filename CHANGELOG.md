@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.2.2
+
+* Added canvas and jest-image-snapshot
+
 ## 0.2.1
 
 * Prettier update to 1.11.0
