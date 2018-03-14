@@ -2,6 +2,9 @@
 
 ## master
 
+## 0.2.3
+* Babel Plugin Emotion update to 9.0.1
+
 ## 0.2.2
 
 * Added canvas and jest-image-snapshot

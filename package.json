@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.3",
     "babel-jest": "^22.4.0",
-    "babel-plugin-emotion": "^8.0.12",
+    "babel-plugin-emotion": "^9.0.1",
     "babel-plugin-react-intl": "^2.3.1",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
