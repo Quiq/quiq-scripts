@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.2.3
+
+* Updated react-rest-renderer for 16.3 release
+
 ## 0.2.2
 
 * Added canvas and jest-image-snapshot
