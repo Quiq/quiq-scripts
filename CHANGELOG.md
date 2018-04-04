@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.3.0
+
+* Updated flow to v0.69.0
+
 ## 0.2.3
 
 * Updated react-rest-renderer for 16.3 release
