@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.3.1
+
+* Update flow to v1.12.0
+
 ## 0.3.0
 
 * Updated flow to v0.69.0
