@@ -2,9 +2,13 @@
 
 ## master
 
+## 0.4.0
+
+* Update flow to v0.72.0
+
 ## 0.3.1
 
-* Update flow to v1.12.0
+* Update prettier to v1.12.0
 
 ## 0.3.0
 
