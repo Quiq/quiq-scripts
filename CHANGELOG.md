@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.5.0
+
+* Update Jest to v23.1.0
+
 ## 0.4.0
 
 * Update flow to v0.72.0
