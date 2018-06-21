@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.6.0
+
+* Adding react to quiq-scripts
+
 ## 0.5.0
 
 * Update Jest to v23.1.0
