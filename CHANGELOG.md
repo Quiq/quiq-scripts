@@ -4,6 +4,10 @@
 
 ## 0.6.0
 
+* Updated flow to v0.76.0
+
+## 0.6.0
+
 * Adding react to quiq-scripts
 
 ## 0.5.0
