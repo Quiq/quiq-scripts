@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.7.1
+
+* Added react-testing-library and jest-dom
+
 ## 0.7.0
 
 * Updated flow to v0.76.0
