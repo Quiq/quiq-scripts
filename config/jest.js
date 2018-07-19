@@ -1,3 +1,5 @@
+import 'jest-dom/extend-expect';
+
 global.requestAnimationFrame = cb => {
   setTimeout(cb, 0);
 };

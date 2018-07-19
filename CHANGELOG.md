@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.7.2
+
+* Added the expect extensions in the jest setup file
+
 ## 0.7.1
 
 * Added react-testing-library and jest-dom
