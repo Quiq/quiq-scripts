@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "canvas-prebuilt": "1.6.5-prerelease.1",
+    "canvas-prebuilt": "1.6.11",
     "empty": "^0.10.1",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
