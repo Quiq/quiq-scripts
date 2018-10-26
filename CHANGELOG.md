@@ -2,7 +2,7 @@
 
 ## master
 
-## 0.7.6
+## 0.8.3
 
 - Update to react@16.6.0
 
