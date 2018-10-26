@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.7.6
+
+- Update to react@16.6.0
+
 ## 0.7.5
 
 - Added and updated raven-js
