@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.8.4
+
+- Prettier 1.15
+
 ## 0.8.3
 
 - Update to react@16.6.0
