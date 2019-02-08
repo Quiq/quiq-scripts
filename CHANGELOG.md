@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.9.0
+
+- React 16.8 (The one with hooks)
+
 ## 0.8.4
 
 - Prettier 1.15
