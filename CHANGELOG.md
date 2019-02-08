@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.9.1
+
+- Jest 24
+
 ## 0.9.0
 
 - React 16.8 (The one with hooks)

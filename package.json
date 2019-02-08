@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "eslint-plugin-react": "^7.5.1",
     "flow-bin": "0.76.0",
     "husky": "^0.14.3",
-    "jest": "^23.6.0",
+    "jest": "^24.1.0",
     "jest-dom": "^1.12.1",
     "jest-environment-jsdom-global": "^1.1.0",
     "jest-image-snapshot": "2.5.0",
