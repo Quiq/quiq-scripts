@@ -1,3 +1,5 @@
+import 'babel-polyfill';
+
 global.requestAnimationFrame = cb => {
   setTimeout(cb, 0);
 };

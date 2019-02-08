@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -42,5 +42,8 @@
     "react-dom": "~16.8.1",
     "react-test-renderer": "~16.8.1",
     "react-testing-library": "^5.1.0"
+  },
+  "resolutions": {
+    "babel-jest": "^23.6.0"
   }
 }
