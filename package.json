@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "0.9.4",
+  "version": "0.10.0",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -9,15 +9,29 @@
   "author": "Nate Norberg",
   "license": "MIT",
   "dependencies": {
-    "babel-core": "^6.26.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/plugin-proposal-do-expressions": "^7.2.0",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-proposal-function-bind": "^7.2.0",
+    "@babel/plugin-proposal-function-sent": "^7.2.0",
+    "@babel/plugin-proposal-json-strings": "^7.2.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.2.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.2.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.3.2",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-import-meta": "^7.2.0",
+    "@babel/polyfill": "Quiq/babel-polyfill#7e4d922c4c9fe69f3d90e984e53f5354ede49492",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^8.0.3",
-    "babel-jest": "^23.6.0",
-    "babel-plugin-emotion": "^8.0.12",
     "babel-plugin-react-intl": "^2.3.1",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
     "canvas-prebuilt": "1.6.11",
     "empty": "^0.10.1",
     "enzyme": "^3.6.0",
@@ -42,8 +56,5 @@
     "react-dom": "~16.8.1",
     "react-test-renderer": "~16.8.1",
     "react-testing-library": "^5.1.0"
-  },
-  "resolutions": {
-    "babel-jest": "^23.6.0"
   }
 }
