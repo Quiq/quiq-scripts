@@ -15,13 +15,13 @@ module.exports = api => {
       ],
       '@babel/preset-react',
       '@babel/preset-flow',
+      '@babel/preset-typescript',
     ],
     plugins: [
       'react-hot-loader/babel',
-      'emotion',
+      ['emotion', {autoLabel: true}],
       '@babel/plugin-syntax-dynamic-import',
       '@babel/plugin-syntax-import-meta',
-      '@babel/plugin-proposal-class-properties',
       '@babel/plugin-proposal-json-strings',
       [
         '@babel/plugin-proposal-decorators',
@@ -29,6 +29,7 @@ module.exports = api => {
           legacy: true,
         },
       ],
+      '@babel/plugin-proposal-class-properties',
       '@babel/plugin-proposal-function-sent',
       '@babel/plugin-proposal-export-namespace-from',
       '@babel/plugin-proposal-numeric-separator',
@@ -48,12 +49,11 @@ module.exports = api => {
     ],
     env: {
       test: {
-        presets: ['@babel/preset-env', '@babel/preset-react'],
+        presets: ['@babel/preset-env', '@babel/preset-react', '@babel/preset-typescript'],
         plugins: [
-          'emotion',
+          ['emotion', {autoLabel: true}],
           '@babel/plugin-syntax-dynamic-import',
           '@babel/plugin-syntax-import-meta',
-          '@babel/plugin-proposal-class-properties',
           '@babel/plugin-proposal-json-strings',
           [
             '@babel/plugin-proposal-decorators',
@@ -61,6 +61,7 @@ module.exports = api => {
               legacy: true,
             },
           ],
+          '@babel/plugin-proposal-class-properties',
           '@babel/plugin-proposal-function-sent',
           '@babel/plugin-proposal-export-namespace-from',
           '@babel/plugin-proposal-numeric-separator',
@@ -85,6 +86,7 @@ module.exports = api => {
             'emotion',
             {
               sourceMap: true,
+              autoLabel: true,
             },
           ],
           'react-hot-loader/babel',
