@@ -250,6 +250,10 @@ module.exports = {
     'default-case': 0,
     'block-spacing': 0,
     'no-lonely-if': 0,
+    'react/self-closing-comp': 0,
+    'react/jsx-closing-tag-location': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
   extends: 'airbnb',
 
@@ -267,7 +271,7 @@ module.exports = {
       experimentalObjectRestSpread: true,
     },
   },
-  plugins: ['react', 'flowtype'],
+  plugins: ['react', 'react-hooks', 'flowtype'],
   globals: {
     IntervalID: false,
     jest: false,

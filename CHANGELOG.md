@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.11.0
+
+- React hooks eslint plugin
+
 ## 0.10.3
 
 - Babel 7
