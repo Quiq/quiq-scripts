@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "0.12.1",
+  "version": "0.13.0",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
-    "babel-eslint": "^8.0.3",
+    "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.0",
     "babel-plugin-react-intl": "^2.3.1",
     "canvas-prebuilt": "1.6.11",
