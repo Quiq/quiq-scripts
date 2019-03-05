@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -53,7 +53,7 @@
     "jest-environment-jsdom-global": "^1.1.0",
     "jest-image-snapshot": "2.5.0",
     "lint-staged": "^6.0.0",
-    "prettier": "^1.15.0",
+    "prettier": "^1.16.0",
     "react": "~16.8.1",
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "~16.8.1",
