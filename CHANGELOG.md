@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.14.0
+
+- Added more dependencies
+
 ## 0.11.0
 
 - React hooks eslint plugin
