@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "0.14.2",
+  "version": "0.14.3",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -82,15 +82,15 @@
     "react-intl": "2.3.0",
     "react-test-renderer": "~16.8.1",
     "react-testing-library": "^5.1.0",
-    "snyk": "1.121.1",
+    "snyk": "1.157.2",
     "typo-js": "1.0.3",
     "typescript": "^3.3.3333",
     "uglifyjs-webpack-plugin": "1.2.5",
     "warning": "^4.0.1",
     "webpack": "4.10.2",
-    "webpack-bundle-analyzer": "2.11.1",
+    "webpack-bundle-analyzer": "3.3.2",
     "webpack-merge": "4.1.2",
-    "webpack-command": "0.2.0",
+    "webpack-cli": "3.3.1",
     "webpack-subresource-integrity": "1.1.0-rc.4",
     "webpack-dev-server": "3.1.14"
   }
