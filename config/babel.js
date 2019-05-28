@@ -2,6 +2,7 @@ module.exports = api => {
   api.cache(true);
 
   return {
+    sourceMaps: false,
     presets: [
       [
         '@babel/preset-env',
@@ -90,6 +91,17 @@ module.exports = api => {
             },
           ],
           'react-hot-loader/babel',
+        ],
+      },
+      production: {
+        plugins: [
+          [
+            'emotion',
+            {
+              sourceMap: false,
+              autoLabel: true,
+            },
+          ],
         ],
       },
     },
