@@ -2,6 +2,10 @@
 
 ## master
 
+## 0.16.0
+
+React 16.9
+
 ## 0.14.5
 
 - Moved mobx stuff up
