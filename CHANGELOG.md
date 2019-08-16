@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.0.0
+
+Updated react-testing-library to @testing-library/react (Breaking change)
+
 ## 0.16.1
 
 Jest 24.8
