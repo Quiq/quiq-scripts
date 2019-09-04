@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -70,7 +70,7 @@
     "jest-image-snapshot": "2.5.0",
     "json-loader": "0.5.7",
     "lint-staged": "^6.0.0",
-    "lodash": "4.17.11",
+    "lodash": "^4.17.12",
     "mobx": "4.13.0",
     "mobx-react": "^5.2.3",
     "mobx-react-lite": "^1.2.0",
