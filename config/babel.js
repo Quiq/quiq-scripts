@@ -25,7 +25,6 @@ module.exports = api => {
       "@babel/preset-typescript"
     ],
     plugins: [
-      "react-hot-loader/babel",
       ["emotion", {autoLabel: true}],
       "@babel/plugin-syntax-dynamic-import",
       "@babel/plugin-syntax-import-meta",
@@ -62,7 +61,6 @@ module.exports = api => {
           "@babel/preset-typescript"
         ],
         plugins: [
-          "react-hot-loader/babel",
           ["emotion", {autoLabel: true}],
           "@babel/plugin-syntax-dynamic-import",
           "@babel/plugin-syntax-import-meta",
