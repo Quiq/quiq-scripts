@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -90,6 +90,7 @@
     "snyk": "1.239.0",
     "typescript": "^3.3.3333",
     "typo-js": "1.0.3",
+    "ua-parser-js": "^0.7.21",
     "uglifyjs-webpack-plugin": "1.2.5",
     "warning": "^4.0.1",
     "webpack": "4.39.3",
@@ -98,5 +99,8 @@
     "webpack-dev-server": "3.1.14",
     "webpack-merge": "4.1.2",
     "webpack-subresource-integrity": "1.1.0-rc.4"
+  },
+  "devDependencies": {
+    "@types/ua-parser-js": "^0.7.33"
   }
 }
