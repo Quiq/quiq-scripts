@@ -10,13 +10,7 @@ module.exports = api => {
           loose: true,
           modules: false,
           targets: {
-            browsers: [
-              "Chrome >= 50",
-              "Edge >= 12",
-              "FF >= 45",
-              "Safari >= 9",
-              "IE >= 11"
-            ]
+            browsers: ["Chrome >= 50", "Edge >= 12", "FF >= 45", "Safari >= 9", "IE >= 11"]
           }
         }
       ],
@@ -25,6 +19,7 @@ module.exports = api => {
       "@babel/preset-typescript"
     ],
     plugins: [
+      "react-hot-loader/babel",
       ["emotion", {autoLabel: true}],
       "@babel/plugin-syntax-dynamic-import",
       "@babel/plugin-syntax-import-meta",
@@ -55,11 +50,7 @@ module.exports = api => {
     ],
     env: {
       test: {
-        presets: [
-          "@babel/preset-env",
-          "@babel/preset-react",
-          "@babel/preset-typescript"
-        ],
+        presets: ["@babel/preset-env", "@babel/preset-react", "@babel/preset-typescript"],
         plugins: [
           ["emotion", {autoLabel: true}],
           "@babel/plugin-syntax-dynamic-import",
