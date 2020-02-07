@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.7.0
+
+Updated prettier to v1.19
+
 ## 1.0.0
 
 Updated react-testing-library to @testing-library/react (Breaking change)
