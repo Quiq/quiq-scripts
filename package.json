@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -88,7 +88,7 @@
     "react-intl": "2.3.0",
     "react-test-renderer": "~16.9.0",
     "snyk": "1.239.0",
-    "typescript": "^3.3.3333",
+    "typescript": "^3.7.5",
     "typo-js": "1.0.3",
     "ua-parser-js": "^0.7.21",
     "uglifyjs-webpack-plugin": "1.2.5",

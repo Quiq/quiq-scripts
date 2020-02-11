@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.8.0
+
+Updated typescript to v3.7
+
 ## 1.7.0
 
 Updated prettier to v1.19
