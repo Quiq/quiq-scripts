@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -96,7 +96,7 @@
     "webpack": "4.42.0",
     "webpack-bundle-analyzer": "3.3.2",
     "webpack-cli": "3.3.1",
-    "webpack-dev-server": "3.1.14",
+    "webpack-dev-server": "^3.8.1",
     "webpack-merge": "4.1.2",
     "webpack-subresource-integrity": "1.1.0-rc.4"
   },
