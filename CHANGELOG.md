@@ -2,6 +2,14 @@
 
 ## master
 
+## 1.8.2
+
+Update dependencies
+
+## 1.8.1
+
+Update dependencies
+
 ## 1.8.0
 
 Updated typescript to v3.7
