@@ -2,6 +2,14 @@
 
 ## master
 
+## 1.8.4
+
+Update deps
+
+## 1.8.3
+
+Update deps
+
 ## 1.8.2
 
 Update dependencies
