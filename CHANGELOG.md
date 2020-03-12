@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.8.5
+
+Update eslint and jest in order to update acorn
+
 ## 1.8.4
 
 Update deps
