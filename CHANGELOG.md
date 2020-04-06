@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.9.0
+
+Adding jest-emotion for better snapshots
+
 ## 1.8.5
 
 Update eslint and jest in order to update acorn
