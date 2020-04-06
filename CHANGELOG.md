@@ -2,7 +2,7 @@
 
 ## master
 
-## 1.9.0
+## 1.9.1
 
 Adding jest-emotion for better snapshots
 
