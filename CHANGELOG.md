@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.9.2
+
+Update mobx-utils for better type support
+
 ## 1.9.1
 
 Adding jest-emotion for better snapshots
