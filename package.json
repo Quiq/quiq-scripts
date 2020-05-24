@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.9.4",
+  "version": "1.9.5",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -87,6 +87,7 @@
     "react-hot-loader": "4.12.18",
     "react-intl": "2.3.0",
     "react-test-renderer": "~16.9.0",
+    "rxjs-compat": "^6.5.5",
     "snyk": "^1.290.1",
     "terser-webpack-plugin": "^2.3.5",
     "typescript": "^3.7.5",
@@ -102,8 +103,7 @@
     "webpack-subresource-integrity": "^1.1.0-rc.4"
   },
   "devDependencies": {
-    "@types/ua-parser-js": "^0.7.33",
-    "rxjs-compat": "^6.5.5"
+    "@types/ua-parser-js": "^0.7.33"
   },
   "resolutions": {
     "serialize-javascript": "^2.1.1"
