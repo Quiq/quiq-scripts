@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.9.6
+
+Update mobx libraries not that IE is not longer supported
+
 ## 1.9.2
 
 Update mobx-utils for better type support

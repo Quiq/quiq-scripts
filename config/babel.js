@@ -10,7 +10,7 @@ module.exports = api => {
           loose: true,
           modules: false,
           targets: {
-            browsers: ["Chrome >= 50", "Edge >= 12", "FF >= 45", "Safari >= 9", "IE >= 11"]
+            browsers: ["Chrome >= 50", "Edge >= 12", "FF >= 45", "Safari >= 9"]
           }
         }
       ],
