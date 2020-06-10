@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.9.6",
+  "version": "1.9.7",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -100,7 +100,8 @@
     "webpack-cli": "^3.3.1",
     "webpack-dev-server": "^3.8.1",
     "webpack-merge": "^4.1.2",
-    "webpack-subresource-integrity": "^1.1.0-rc.4"
+    "webpack-subresource-integrity": "^1.1.0-rc.4",
+    "stubborn-fetch": "0.2.5"
   },
   "devDependencies": {
     "@types/ua-parser-js": "^0.7.33"
