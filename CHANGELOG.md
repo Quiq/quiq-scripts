@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.9.7
+
+Added stubborn-fetch as a dependency
+
 ## 1.9.6
 
 Update mobx libraries not that IE is not longer supported
