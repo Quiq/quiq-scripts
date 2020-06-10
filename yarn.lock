@@ -10591,10 +10591,10 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-stubborn-fetch@0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/stubborn-fetch/-/stubborn-fetch-0.2.5.tgz#5256cf45f3fb1bf523e47562804b0121230210f6"
-  integrity sha512-w0JY6tAWIP/hkNiQXw6TvZhCfHlklruUNl7wwBQjnZeW5MQvnxmAIQd/5Tu34ii970hZp+mJCnq3Wt/KHsNelA==
+stubborn-fetch@0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/stubborn-fetch/-/stubborn-fetch-0.2.6.tgz#333587932f77e7ff30612cb14a0bc24228115ebb"
+  integrity sha512-O4osOlnjhXDW3IDGxPorwLkjxkdDywIYbDFCGFFJUf1j7+Hy75JIkqdrPRVXAOSJIA3Dfz29GO61yuvPTQsppQ==
   dependencies:
     extendable-error-class "0.1.1"
     isomorphic-fetch "2.2.1"
