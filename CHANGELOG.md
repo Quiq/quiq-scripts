@@ -2,6 +2,11 @@
 
 ## master
 
+## 1.9.8
+
+Change mobx-react and mobx-react-lite deps to not use absolute latest since they only support
+funtional components
+
 ## 1.9.7
 
 Added stubborn-fetch as a dependency
