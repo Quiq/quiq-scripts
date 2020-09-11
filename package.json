@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.9.9",
+  "version": "1.9.10",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -88,7 +88,6 @@
     "react-intl": "2.3.0",
     "react-test-renderer": "~16.9.0",
     "rxjs-compat": "^6.5.5",
-    "snyk": "^1.290.1",
     "terser-webpack-plugin": "^2.3.5",
     "typescript": "^3.7.5",
     "typo-js": "1.0.3",
