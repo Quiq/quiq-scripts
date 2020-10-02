@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.9.10
+
+Upgrades for snyk
+
 ## 1.9.8
 
 Change mobx-react and mobx-react-lite deps to not use absolute latest since they only support
