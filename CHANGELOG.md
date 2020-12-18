@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.9.12
+
+Upgrades for snyk including using latest jest
+
 ## 1.9.10
 
 Upgrades for snyk
