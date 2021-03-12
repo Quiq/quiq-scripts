@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.9.12",
+  "version": "1.9.13",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -42,7 +42,7 @@
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.0",
     "babel-plugin-react-intl": "^2.3.1",
-    "copy-webpack-plugin": "^5.1.0",
+    "copy-webpack-plugin": "^8.0.0",
     "duplicate-package-checker-webpack-plugin": "^3.0.0",
     "emotion": "9.2.10",
     "empty": "^0.10.1",
@@ -70,7 +70,7 @@
     "jest-image-snapshot": "^2.5.0",
     "json-loader": "^0.5.7",
     "lint-staged": "^6.0.0",
-    "lodash": "4.17.20",
+    "lodash": "4.17.21",
     "mobx": "^5.15.4",
     "mobx-react": "^5.4.4",
     "mobx-react-lite": "^1.5.2",
@@ -91,13 +91,13 @@
     "terser-webpack-plugin": "^2.3.5",
     "typescript": "^3.7.5",
     "typo-js": "1.0.3",
-    "ua-parser-js": "^0.7.22",
+    "ua-parser-js": "^0.7.24",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "warning": "^4.0.1",
-    "webpack": "^4.42.0",
-    "webpack-bundle-analyzer": "3.3.2",
+    "webpack": "^5.25.0",
+    "webpack-bundle-analyzer": "4.4.0",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0",
+    "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^4.1.2",
     "webpack-subresource-integrity": "^1.1.0-rc.4",
     "stubborn-fetch": "0.2.6"
@@ -107,9 +107,10 @@
   },
   "resolutions": {
     "serialize-javascript": "^2.1.1",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "node-fetch": "^2.6.1",
     "node-forge": "^0.10.0",
-    "yargs-parser": "^15.0.1"
+    "yargs-parser": "^15.0.1",
+    "glob-parent": "^5.1.2"
   }
 }
