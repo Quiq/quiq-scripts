@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.9.14
+
+Upgrade some webpack dependencies
+
 ## 1.9.13
 
 Dependecy upgrades
