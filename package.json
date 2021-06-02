@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.9.16",
+  "version": "1.9.17",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
