@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.9.18
+
+More dependency upgrades
+
 ## 1.9.17
 
 Upgrade dependencies
