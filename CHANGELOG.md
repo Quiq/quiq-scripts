@@ -4,6 +4,10 @@
 
 ## 1.9.18
 
+Upgrade polished to 4.1.3
+
+## 1.9.18
+
 More dependency upgrades
 
 ## 1.9.17
