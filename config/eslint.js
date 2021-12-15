@@ -1,10 +1,10 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'quiq-scripts'],
+  plugins: ['@typescript-eslint', '@quiq'],
   ignorePatterns: ['dist/*', 'temp_docker/*', '.*.js', 'babel.config.js'],
   rules: {
-    'quiq-scripts/prevent-cross-app-imports': [
+    '@quiq/prevent-cross-app-imports': [
       'error',
       {
         zones: [
@@ -38,7 +38,7 @@ module.exports = {
       },
     ],
 
-    'quiq-scripts/prevent-javascript-snippets': [
+    '@quiq/prevent-javascript-snippets': [
       'error',
       {
         snippets: [
