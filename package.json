@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.9.20",
+  "version": "1.9.21",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -102,7 +102,9 @@
     "webpack-subresource-integrity": "^1.5.2"
   },
   "devDependencies": {
-    "@types/ua-parser-js": "^0.7.33"
+    "@types/ua-parser-js": "^0.7.33",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0"
   },
   "resolutions": {
     "lodash": "^4.17.21",

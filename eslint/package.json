@@ -1,0 +1,5 @@
+{
+  "name": "eslint-plugin-quiq-scripts",
+  "version": "1.0.0",
+  "main": "./Main.js"
+}
