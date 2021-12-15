@@ -1449,6 +1449,11 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
   integrity sha512-3NsZsJIA/22P3QUyrEDNA2D133H4j224twJrdipXN38dpnIOzAbUDtOwkcJ5pXmn75w7LSQDjA4tO9dm1XlqlA==
 
+"@quiq/eslint-plugins@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@quiq/eslint-plugins/-/eslint-plugins-1.0.0.tgz#55835d261ecaa0634cc2e320f01a051bd66718ed"
+  integrity sha512-0XPScTK9YjQYkToo+fkTkh62hdPGqpbiYsRa97PXmDV1jn4kpwMXAMKoBsqM6CWp5OOJBLtrwHYY21izYLIpEw==
+
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
@@ -4020,9 +4025,6 @@ eslint-plugin-jsx-a11y@^6.4.1:
     has "^1.0.3"
     jsx-ast-utils "^3.1.0"
     language-tags "^1.0.5"
-
-"eslint-plugin-quiq-scripts@file:./eslint":
-  version "1.0.0"
 
 eslint-plugin-react-hooks@^4.2.0:
   version "4.2.0"
