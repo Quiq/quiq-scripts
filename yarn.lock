@@ -1449,10 +1449,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
   integrity sha512-3NsZsJIA/22P3QUyrEDNA2D133H4j224twJrdipXN38dpnIOzAbUDtOwkcJ5pXmn75w7LSQDjA4tO9dm1XlqlA==
 
-"@quiq/eslint-plugins@1.0.0":
+"@quiq/eslint-plugin@1.0.0":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@quiq/eslint-plugins/-/eslint-plugins-1.0.0.tgz#55835d261ecaa0634cc2e320f01a051bd66718ed"
-  integrity sha512-0XPScTK9YjQYkToo+fkTkh62hdPGqpbiYsRa97PXmDV1jn4kpwMXAMKoBsqM6CWp5OOJBLtrwHYY21izYLIpEw==
+  resolved "https://registry.yarnpkg.com/@quiq/eslint-plugin/-/eslint-plugin-1.0.0.tgz#3459f1643232f105860cc0ef5e28223674824928"
+  integrity sha512-wL71KyBAOix8uASl1hQ2YJfz+3Hj7xGu5kVv+oiAloLLzcyg1hbHJw43rJ6zCs1QS4hAA7gUd5Tsjz7pwH+6+g==
 
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.3"
