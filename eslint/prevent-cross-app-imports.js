@@ -65,9 +65,18 @@ module.exports = {
         modifiedImportPath = modifiedImportPath.substring(1);
       }
 
+      console.log('\t---------- checkForRestrictedImportPath() ----------');
+      console.log('\t\t+ importPath', importPath);
+      console.log('\t\t+ modifiedImportPath', modifiedImportPath);
+
       // Look at each currently restricted zone and see if it matches the current import path.
       currentRestrictedZones.forEach((zone, index) => {
         const isExcludedImport = modifiedImportPath.indexOf(zone.from) === 0;
+
+        console.log('\t\t+ FOR EACH');
+        console.log('\t\t\t* zone', zone);
+        console.log('\t\t\t* index', index);
+        console.log('\t\t\t* isExcludedImport', isExcludedImport);
 
         if (isExcludedImport) {
           const message = `${zone.message} ('{{importPath}}').`;
@@ -80,6 +89,13 @@ module.exports = {
         }
       });
     }
+
+    console.log('=============== preventCrossAppImports() ===============');
+    console.log('\t- options', options);
+    console.log('\t- restrictedPaths', restrictedPaths);
+    console.log('\t- basePath', basePath);
+    console.log('\t- currentFilename', currentFilename);
+    console.log('\t- currentRestrictedZones', currentRestrictedZones);
 
     return moduleVisitor(
       (source) => {
