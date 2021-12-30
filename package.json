@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.10.3",
+  "version": "1.10.4",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -31,6 +31,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
+    "@quiq/eslint-plugin": "1.0.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@types/enzyme": "^3.9.0",
@@ -39,6 +40,8 @@
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.2",
     "@types/react-intl": "^2.3.11",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.0",
     "babel-plugin-react-intl": "^2.3.1",
@@ -99,24 +102,14 @@
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^4.0.0",
     "webpack-merge": "^5.7.3",
-    "webpack-subresource-integrity": "^1.5.2",
-    "@typescript-eslint/eslint-plugin": "^5.7.0",
-    "@typescript-eslint/parser": "^5.7.0",
-    "@quiq/eslint-plugin": "1.0.2"
+    "webpack-subresource-integrity": "^1.5.2"
   },
   "devDependencies": {
     "@types/ua-parser-js": "^0.7.33"
   },
   "resolutions": {
-    "lodash": "^4.17.21",
-    "node-fetch": "^2.6.1",
-    "node-forge": "^0.10.0",
-    "glob-parent": "^5.1.2",
     "css-what": "5.0.1",
-    "shell-quote": "^1.7.3",
-    "tmpl": "^1.0.5",
     "json-schema": "^0.4.0",
-    "nth-check": "^2.0.1",
-    "prompts": "^2.4.2"
+    "nth-check": "^2.0.1"
   }
 }
