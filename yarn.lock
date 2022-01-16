@@ -941,9 +941,9 @@
     "@babel/helper-create-regexp-features-plugin" "^7.8.3"
     "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/polyfill@Quiq/babel-polyfill#7e4d922c4c9fe69f3d90e984e53f5354ede49492":
+"@babel/polyfill@https://nexus.quiq.sh/repository/npm-releases/babel-polyfill/-/babel-polyfill-7.0.0-beta.31.tgz":
   version "7.0.0-beta.31"
-  resolved "https://codeload.github.com/Quiq/babel-polyfill/tar.gz/7e4d922c4c9fe69f3d90e984e53f5354ede49492"
+  resolved "https://nexus.quiq.sh/repository/npm-releases/babel-polyfill/-/babel-polyfill-7.0.0-beta.31.tgz#de39d6f9a0469eecc61e20cd189baa382d6e978d"
   dependencies:
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
