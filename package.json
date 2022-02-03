@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.10.6",
+  "version": "1.10.7",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -110,6 +110,7 @@
   "resolutions": {
     "css-what": "5.0.1",
     "json-schema": "^0.4.0",
-    "nth-check": "^2.0.1"
+    "nth-check": "^2.0.1",
+    "node-forge": "^1.2.1"
   }
 }
