@@ -8,6 +8,8 @@ module.exports = api => {
         "@babel/preset-env",
         {
           loose: true,
+          useBuiltIns: "usage",
+          "core-js": 3.21,
           modules: false,
           targets: {
             browsers: ["Chrome >= 50", "Edge >= 12", "FF >= 45", "Safari >= 9"]
