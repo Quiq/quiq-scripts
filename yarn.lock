@@ -1768,10 +1768,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
   integrity sha512-3NsZsJIA/22P3QUyrEDNA2D133H4j224twJrdipXN38dpnIOzAbUDtOwkcJ5pXmn75w7LSQDjA4tO9dm1XlqlA==
 
-"@quiq/eslint-plugin@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@quiq/eslint-plugin/-/eslint-plugin-1.0.3.tgz#3fa42beb98be58ef8bdadc07060f7d84f96f3790"
-  integrity sha512-qJ7PWrpmdCaUuBn5tZPXZHPqAhQrphaduWIqlzCWA9YN1bFvfrF/N77vVt+5gGdzMPxA2al3k365/HayUoh0MA==
+"@quiq/eslint-plugin@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@quiq/eslint-plugin/-/eslint-plugin-1.0.4.tgz#ac2a50508fe0bcd61bf6f601db236bdc62fd7cf8"
+  integrity sha512-HG00HHA6I8PFjDRHk5+LwcdxzD+QZiTNG/V9ddQLs7fdVUx45LOLSQi9Vj8fmb0YShiDLjvamYMzDrUXvfH6/Q==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
