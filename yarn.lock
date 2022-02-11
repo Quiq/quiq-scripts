@@ -1364,6 +1364,11 @@
     find-root "^1.1.0"
     source-map "^0.7.2"
 
+"@emotion/eslint-plugin@^11.7.0":
+  version "11.7.0"
+  resolved "https://registry.yarnpkg.com/@emotion/eslint-plugin/-/eslint-plugin-11.7.0.tgz#253c8ace26f3921695a7aa85ecbf6fac75e74b33"
+  integrity sha512-k6H0OxBgkPDVG5M16AWnu3z15OmmKNvGmJiYTcamoOIDhiGE5+no+BiVAiHPOwJf/NOsDei2S9i015cMwlO5sA==
+
 "@emotion/hash@^0.6.2", "@emotion/hash@^0.6.6":
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.6.6.tgz#62266c5f0eac6941fece302abad69f2ee7e25e44"
@@ -1763,10 +1768,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.11.tgz#aeb16f50649a91af79dbe36574b66d0f9e4d9f71"
   integrity sha512-3NsZsJIA/22P3QUyrEDNA2D133H4j224twJrdipXN38dpnIOzAbUDtOwkcJ5pXmn75w7LSQDjA4tO9dm1XlqlA==
 
-"@quiq/eslint-plugin@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@quiq/eslint-plugin/-/eslint-plugin-1.0.2.tgz#d0705b79932fb5d099c2a52ceca2ecc7ee536d8b"
-  integrity sha512-TtHJYvs/osv9TsuYYA8RAxjxToqIetdBqR/MGnXnN3pWQW88b1o8bBPyKWmWPufvhGelD9RYJeEoXl6N3aZuYQ==
+"@quiq/eslint-plugin@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@quiq/eslint-plugin/-/eslint-plugin-1.0.3.tgz#3fa42beb98be58ef8bdadc07060f7d84f96f3790"
+  integrity sha512-qJ7PWrpmdCaUuBn5tZPXZHPqAhQrphaduWIqlzCWA9YN1bFvfrF/N77vVt+5gGdzMPxA2al3k365/HayUoh0MA==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"

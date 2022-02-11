@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'react', '@quiq'],
+  plugins: ['@typescript-eslint', 'react', '@quiq', '@emotion'],
   ignorePatterns: ['dist/*', 'temp_docker/*', '.*.js', 'babel.config.js'],
   rules: {
     // Errors
@@ -20,6 +20,8 @@ module.exports = {
           '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
       },
     ],
+    '@quiq/emotion-avoid-untrusted-content': ['error'],
+    '@emotion/syntax-preference': [2, "string"],
 
     // Warnings
     'prefer-rest-params': ['warn'],
