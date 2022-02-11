@@ -1,14 +1,14 @@
 "use strict";
 
- module.exports = {
-   meta: {
-     type: 'problem', // `problem`, `suggestion`, or `layout`
-     docs: {
-       description: "Prevents setting the CSS content property dynamically inside styled component string",
-     },
-   },
+module.exports = {
+  meta: {
+    type: 'problem', // `problem`, `suggestion`, or `layout`
+    docs: {
+      description: "Prevents setting the CSS content property dynamically inside styled component string",
+    },
+  },
 
-   create: function emotionAvoidUntrustedContent(context) {
+  create: function emotionAvoidUntrustedContent(context) {
     const searchString = "content:";
     const warning = `Avoid setting CSS property "content" to an untrusted dynamic value. If this is a trusted value you can ignore this error.`
 
@@ -26,8 +26,9 @@
           context.report({
             message: warning,
             node: e
-          })
+          });
         }
       }
     };
- };
+  }
+};
