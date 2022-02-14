@@ -48,7 +48,14 @@ module.exports = api => {
       ],
       "@babel/plugin-proposal-nullish-coalescing-operator",
       "@babel/plugin-proposal-do-expressions",
-      "@babel/plugin-proposal-function-bind"
+      "@babel/plugin-proposal-function-bind",
+      [
+        "formatjs",
+        {
+          "idInterpolationPattern": "[sha512:contenthash:base64:6]",
+          "ast": true
+        }
+      ],
     ],
     env: {
       test: {
