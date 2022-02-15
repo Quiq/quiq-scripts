@@ -8,8 +8,6 @@ module.exports = api => {
         "@babel/preset-env",
         {
           loose: true,
-          useBuiltIns: "usage",
-          "core-js": 3.21,
           modules: false,
           targets: {
             browsers: ["Chrome >= 50", "Edge >= 12", "FF >= 45", "Safari >= 9"]
@@ -48,14 +46,7 @@ module.exports = api => {
       ],
       "@babel/plugin-proposal-nullish-coalescing-operator",
       "@babel/plugin-proposal-do-expressions",
-      "@babel/plugin-proposal-function-bind",
-      [
-        "formatjs",
-        {
-          "idInterpolationPattern": "[sha512:contenthash:base64:6]",
-          "ast": true
-        }
-      ],
+      "@babel/plugin-proposal-function-bind"
     ],
     env: {
       test: {
