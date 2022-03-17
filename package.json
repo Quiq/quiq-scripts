@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.10.12",
+  "version": "1.10.13",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -69,7 +69,7 @@
     "html-webpack-plugin": "^5.3.1",
     "http-proxy": "^1.12.0",
     "husky": "^0.14.3",
-    "jest": "^26.5.0",
+    "jest": "^27.5.1",
     "jest-emotion": "^9.0.0",
     "jest-environment-jsdom-global": "^1.1.0",
     "jest-image-snapshot": "^2.5.0",
@@ -111,7 +111,6 @@
   },
   "resolutions": {
     "css-what": "5.0.1",
-    "json-schema": "^0.4.0",
     "nth-check": "^2.0.1",
     "node-forge": "^1.2.1"
   }
