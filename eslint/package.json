@@ -1,5 +1,5 @@
 {
   "name": "@quiq/eslint-plugin",
-  "version": "1.0.19",
+  "version": "1.0.23",
   "main": "./main.js"
 }
