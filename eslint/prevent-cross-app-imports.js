@@ -73,6 +73,18 @@ module.exports = {
       currentRestrictedZones.forEach((zone, index) => {
         let isExcludedImport = modifiedImportPath.indexOf(zone.from) === 0;
 
+        // If the import has been excluded check to see if the import is within a directory
+        // that has been allowed as an exception.
+        if (isExcludedImport && Array.isArray(zone.except) && zone.except.length > 0) {
+          // Looking at the full directory path to prevent directories with the same name
+          // but in different locations from both being allowed when it is really only the
+          // one directory that should be allowed.
+          isExcludedImport = !zone.except.some((allowableDirectory) => {
+            const fullAllowableDirectory = path.join(zone.from, allowableDirectory);
+            return modifiedImportPath.indexOf(fullAllowableDirectory) === 0;
+          });
+        }
+
         // If the import has been excluded check to see if 'type' imports are allowed and
         // flip the excluded flag to false if it is a type import.
         if (isExcludedImport && zone.allowTypeImports === true) {
