@@ -52,7 +52,22 @@ module.exports = (api) => {
     ],
     env: {
       test: {
-        presets: ['@babel/preset-env', '@babel/preset-react', '@babel/preset-typescript'],
+        presets: [
+          [
+            '@babel/preset-env',
+            {
+              loose: true,
+              modules: false,
+              targets: {
+                browsers: ['Chrome >= 50', 'Edge >= 12', 'FF >= 45', 'Safari >= 9'],
+              },
+              corejs: '3.25',
+              useBuiltIns: 'usage',
+            },
+          ],
+          '@babel/preset-react',
+          '@babel/preset-typescript',
+        ],
         plugins: [
           ['emotion', {autoLabel: true}],
           '@babel/plugin-syntax-dynamic-import',
