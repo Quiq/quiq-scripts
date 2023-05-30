@@ -4598,11 +4598,6 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.4.tgz#28d9969ea90661b5134259f312ab6aa7929ac5e2"
   integrity sha512-8/sOawo8tJ4QOBX8YlQBMxL8+RLZfxMQOif9o0KUKTNTjMYElWPE0r/m5VNFxTRd0NSw8qSy8dajrwX4RYI1Hw==
 
-flow-bin@0.76.0:
-  version "0.76.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.76.0.tgz#eb00036991c3abc106743fcbc7ee321f02aa4faa"
-  integrity sha512-ywyEEEDYuItrkpx9HqRhuY78rXYbaWiNZSWgaI0KUGGeOldaTEbCZXosspxTEKqmQTCBW1/02Z2K0kC9C6hqzQ==
-
 follow-redirects@^1.0.0:
   version "1.14.9"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
@@ -7652,11 +7647,6 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxjs-compat@^6.5.5:
-  version "6.5.5"
-  resolved "https://registry.yarnpkg.com/rxjs-compat/-/rxjs-compat-6.5.5.tgz#073c40510f29c45a2a5fc02dde87f8c3ad75f2c2"
-  integrity sha512-F42sssVbUyWH4vJswEo6m+Eh02xHv3q93n8S7nUJO58R7sbc3CvJIOts605zdaBhWa1xMB9aVSyqPqhQ5q3eXg==
-
 rxjs@^7.4.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.4.0.tgz#a12a44d7eebf016f5ff2441b87f28c9a51cebc68"
@@ -8540,11 +8530,6 @@ typescript@^4.7.3:
   version "4.8.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.3.tgz#d59344522c4bc464a65a730ac695007fdb66dd88"
   integrity sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig==
-
-typo-js@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/typo-js/-/typo-js-1.0.3.tgz#54d8ebc7949f1a7810908b6002c6841526c99d5a"
-  integrity sha1-VNjrx5SfGngQkItgAsaEFSbJnVo=
 
 ua-parser-js@^0.7.33:
   version "0.7.34"
