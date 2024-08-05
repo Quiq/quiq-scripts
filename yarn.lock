@@ -7548,10 +7548,10 @@ raf@^3.4.1:
   dependencies:
     performance-now "^2.1.0"
 
-railroad-diagrams@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/railroad-diagrams/-/railroad-diagrams-1.0.0.tgz#eb7e6267548ddedfb899c1b90e57374559cddb7e"
-  integrity sha1-635iZ1SN3t+4mcG5Dlc3RVnN234=
+railroad-diagrams@^1.0.0, "railroad-diagrams@npm:dry-uninstall@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/dry-uninstall/-/dry-uninstall-0.3.0.tgz#29847a27ed3b3bb94e6212547a677e37f4427011"
+  integrity sha512-b8h94RVpETWkVV59x62NsY++79bM7Si6Dxq7a4iVxRcJU3ZJJ4vaiC7wUZwM8WDK0ySRL+i+T/1SMAzbJLejYA==
 
 randexp@0.4.6:
   version "0.4.6"

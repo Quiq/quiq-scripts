@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-RAILROADDIAGRAMS-6282875:
+    - '*':
+        reason: Unaffected - removed by mapping to empty package
+        expires: 2025-08-05T00:00:00.000Z
+        created: 2024-08-05T19:28:46.347Z
+patch: {}

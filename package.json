@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.10.58",
+  "version": "1.10.59",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -113,6 +113,7 @@
     "node-fetch": "3.2.10",
     "semver": "^7.5.2",
     "word-wrap": "npm:@aashutoshrathi/word-wrap@1.2.6",
-    "follow-redirects": "^1.15.6"
+    "follow-redirects": "^1.15.6",
+    "railroad-diagrams": "npm:dry-uninstall@0.3.0"
   }
 }
