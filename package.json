@@ -1,6 +1,6 @@
 {
   "name": "quiq-scripts",
-  "version": "1.10.66",
+  "version": "1.10.67",
   "description": "Toolbox for creating front-end apps at quiq",
   "main": "src/index.js",
   "scripts": {
@@ -87,11 +87,11 @@
     "react-dom": "~16.9.0",
     "react-emotion": "9.2.10",
     "react-hot-loader": "4.12.18",
-    "react-intl": "2.3.0",
+    "react-intl": "^7.1.11",
     "react-test-renderer": "~16.9.0",
     "stubborn-fetch": "0.2.8",
     "terser-webpack-plugin": "^5.1.1",
-    "typescript": "^4.7.3",
+    "typescript": "^5.0.0",
     "typo-js": "1.0.3",
     "ua-parser-js": "^0.7.33",
     "webpack": "^5.76.0",
